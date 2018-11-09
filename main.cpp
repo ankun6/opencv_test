@@ -8,6 +8,10 @@ extern int errno;
 using  namespace std;
 using namespace cv;
 
+/**
+ * 实时显示视频，按Q或q退出
+ * @return 失败返回负值， 成功0
+ */
 int test()
 {
     char key;
